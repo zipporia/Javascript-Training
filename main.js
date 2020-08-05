@@ -56,3 +56,17 @@ for(let i = 0; i< names.length; i++){
     
 }
 
+for(let name of names){
+    console.log(name.id, name.name, name.authentic)
+}
+
+// foreach, map, filter
+names.forEach(function(name){
+    console.log(name.name);
+});
+
+// map
+
+names.map(function(name){
+    console.log(name.name);
+});
